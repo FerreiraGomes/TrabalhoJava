@@ -5,15 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="502ddd0a-1c1f-4671-8931-a8f611423966" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/trabalho/TesteSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/abstractfactory/ComunicadorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/abstractfactory/Emissor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/abstractfactory/EmissorCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/abstractfactory/EmissorMastercard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/abstractfactory/EmissorVisa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/abstractfactory/MastercardComunicadorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/abstractfactory/Receptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/abstractfactory/ReceptorCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/abstractfactory/ReceptorMastercard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/abstractfactory/ReceptorVisa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/abstractfactory/TestaVisaComunicadorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/abstractfactory/VisaComunicadorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/factorymethod/Emissor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/factorymethod/EmissorCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/factorymethod/EmissorEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/factorymethod/EmissorJMS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/factorymethod/EmissorSMS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/factorymethod/TestaEmissores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/trabalho/Configuracao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/singleton/Configuracao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/trabalho/TesteSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/singleton/TesteSingleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +42,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1664499575" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1664499574" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -43,16 +80,24 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/pc/Documents/Projetos_Java/trabalho/Singleton/src/main/java/br/com/factorymethod"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Documents\Projetos_Java\trabalho\Singleton\src\main\java\br\com\builder" />
+      <recent name="C:\Users\pc\Documents\Projetos_Java\trabalho\Singleton\src\main\java\br\com\factorymethod" />
+      <recent name="C:\Users\pc\Documents\Projetos_Java\trabalho\Singleton\src\main\java\br\com\abstractfactory" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="TesteSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.trabalho.TesteSingleton" />
+      <option name="MAIN_CLASS_NAME" value="br.com.singleton.TesteSingleton" />
       <module name="Singleton" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.trabalho.*" />
+          <option name="PATTERN" value="br.com.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,7 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TesteSingleton" />
+        <item itemvalue="Application.br.com.singleton.TesteSingleton" />
       </list>
     </recent_temporary>
   </component>

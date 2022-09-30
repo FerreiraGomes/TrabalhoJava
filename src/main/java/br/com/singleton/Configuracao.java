@@ -1,4 +1,4 @@
-package br.com.trabalho;
+package br.com.singleton;
 
 import java.util.HashMap;
 import java.util.Map;

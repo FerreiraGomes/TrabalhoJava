@@ -1,4 +1,4 @@
-package br.com.trabalho;
+package br.com.singleton;
 
 public class TesteSingleton {
 
